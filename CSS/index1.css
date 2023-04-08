@@ -31,11 +31,13 @@
     font-size: 30px;
     top: 110px;
     left: 210px;
-    color: black;
     transition-delay: 0.3s;
     transition-duration: 1.2s;
     transition-timing-function: ease-in-out;
+}
+.icon a{
     color: white;
+    transition: 0.3s;
 }
 .hidden{
     position: absolute;
@@ -56,4 +58,19 @@
 }
 .page:hover .icon{
     left: 45px;
+}
+.fb:hover{
+    color: rgb(28, 85, 255);
+    text-shadow: 0px 0px 5px black,0.5px 0.5px 3px black,-0.5px -0.5px 3px black;
+    transform: scale(1.305);
+}
+.ig:hover{
+    text-shadow: 0px 0px 5px black,0.5px 0.5px 3px black,-0.5px -0.5px 3px black;
+    transform: scale(1.305);
+    color: rgb(209, 0, 0);
+}
+.twit:hover{
+    text-shadow: 0px 0px 5px black,0.5px 0.5px 3px black,-0.5px -0.5px 3px black;
+    transform: scale(1.305);
+    color: rgb(52, 163, 232);
 }
